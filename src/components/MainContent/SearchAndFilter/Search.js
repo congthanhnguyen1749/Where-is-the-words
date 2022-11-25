@@ -78,6 +78,7 @@ const SearchElement = styled.div`
     box-shadow: none !important;
     opacity: 75%;
     transition: opacity 0.2s linear;
+    margin-top: 5px;
     &:hover {
       opacity: 1;
     }
