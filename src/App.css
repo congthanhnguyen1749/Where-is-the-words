@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+  --iconswitchcolor: hsl(51, 96%, 61%);
+  --toggleButtonBackground: hsl(208, 59%, 41%);
+  --TextShadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+  --BoxShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  --SelectOptionBackground: rgb(1, 147, 207);
+}
+
+.darkTheme {
+  background-color: rgba(7, 49, 85, 0.527);
+  color: #fff;
+  box-shadow: var(--BoxShadow);
+}
+.lightTheme {
+  background-color: #fff;
+  color: #111;
+  box-shadow: var(--BoxShadow);
+}
+
+ul,
+ol,
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
